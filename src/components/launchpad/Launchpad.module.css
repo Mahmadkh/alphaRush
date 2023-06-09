@@ -1,0 +1,228 @@
+.App{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.mainContainer{
+    width: 80%;
+    max-width: 1080px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.headContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head{
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+button{
+    background: #ed6c45;
+    border: 1px solid hsla(0,0%,100%,.3);
+    border-radius: 8px;
+    color: #FFFFFF;
+    width: 180px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab{
+    margin-top: 50px;
+    font-family: 'NexaRegular';
+font-size: 22px;
+    width: 710px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.09);
+    padding: 18px 50px 19px 49px;
+    border-radius: 39px;
+    column-gap: 60px;
+
+}
+.linkTo{
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.linkTo:hover{
+    color: #ED6C45;
+    text-decoration: underline;
+}
+
+
+.upComming > span{
+    color: #ED6C45;
+    text-decoration: none;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+.documentation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 295px;
+height: 50px;
+background: rgba(255, 255, 255, 0.09);
+border: 1px solid rgba(255, 255, 255, 0.3);
+border-radius: 8px;
+transform: rotate(0deg);
+
+}
+.upComming{
+        margin-top: 100px;
+        color: #FFFFFF;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        line-height: 20px;
+        justify-content: space-between;
+
+}
+
+/* card part */
+
+
+.cards{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    /* flex-wrap: wrap; */
+    column-gap: 30px;
+    margin-top: 50px;
+    color: #FFFFFF;
+  
+
+}
+
+
+.cardContentSecond{
+    
+    display: flex ;
+    flex-direction: column;
+    clip-path: polygon(100% 0,100% 85%,82% 100%,0 100%,0 0);
+    width: 340px;
+height: 501px;
+    border-radius: 20px;
+    border: 0 solid #e5e7eb;
+    background: linear-gradient(122.35deg,#ed6c45 35.68%,rgba(237,108,69,.02) 96.15%),linear-gradient(0deg,#221b1b,#221b1b);
+    padding: 1px;
+    
+    
+}
+.front{
+    
+    display: flex ;
+    flex-direction: column;
+    clip-path: polygon(100% 0,100% 85%,82% 100%,0 100%,0 0);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 0 solid #e5e7eb;
+    background: #3C2A2A;
+    
+ 
+}
+
+.lowestContainer{
+    display: flex ;
+    flex-direction: column;
+    clip-path: polygon(100% 0,100% 85%,82% 100%,0 100%,0 0);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 0 solid #e5e7eb;
+    
+}
+
+/* .color{
+    color: #ed6c45;
+} */
+.cardHeading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: 'Nexa-Bold';
+    font-size: 22px;
+    line-height: 32px;
+    margin-left: 8px;
+    margin-bottom: 20px;
+
+}
+.contentContainer{
+    height: 200px;
+}
+.cardHeadingTwo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Nexa-Bold';
+    font-size: 22px;
+    line-height: 32px;
+    width: 80%;
+    margin-left: 26px;
+
+}
+
+.apy{
+    margin-left: 15px;
+    margin-bottom: 14px;
+    width: 310px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #383131;
+    border-radius: 2px;
+    clip-path: polygon(100% 0,100% 70%,92% 100%,0 100%,0 0);
+}
+
+.spySecond{margin-left: 15px;
+    margin-top: 14px;
+    width: 310px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #553B3B;
+    border-radius: 2px;
+    clip-path: polygon(100% 0,100% 70%,92% 100%,0 100%,0 0);}
+
+.stake{
+    background: linear-gradient(180deg, #F97851 0%, #EF5222 100%);
+    border-radius: 8px;
+    width: 152px;
+    height: 40px;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 94px;
+    margin-top: 20px;
+}
+

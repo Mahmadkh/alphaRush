@@ -1,0 +1,67 @@
+.mainContainer{
+
+    width: 80%;
+    max-width: 1080px;
+    margin-top: 150px;
+    background: linear-gradient(122.35deg,#ed6c45 35.68%,rgba(237,108,69,.02) 96.15%);
+    clip-path: polygon(6% 0,100% 0,100% 78%,94% 100%,0 100%,0 22%);
+    height: 278px;
+    padding: 1px;
+    border-radius: 20px;
+}
+
+
+.checkItOut{
+    /* opacity: 0.7; */
+    position: relative;
+    display: flex;
+    clip-path: polygon(6% 0,100% 0,100% 78%,94% 100%,0 100%,0 22%);
+    align-items: center;
+    justify-content: center;
+    color:#FFFFFF;
+    background: #221b1b;
+    padding: 78px 143px 79px 143px;
+border-radius: 20px;
+column-gap: 30px;
+height: 100%;
+background-image: url(/public/checkout.png);
+
+/* justify-content: space-between; */
+}
+
+
+
+
+
+
+
+.checkButton {
+    background: hsla(0,0%,100%,.09);
+    border-radius: 8px;
+    border: 1px solid hsla(0,0%,100%,.3);
+    color: #FFFFFF;
+    width: 180px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Syne';
+font-style: normal;
+font-weight: 600;
+font-size: 1.2rem;
+color: #B7B6B6;
+
+}
+.txt{
+    width: 40%;
+    line-height: 28px;
+    font-size: 1.0rem;
+
+
+
+}
+span{
+    margin-left: 3px;
+    text-decoration: underline;
+    color: #ED6C45;
+}
