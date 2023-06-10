@@ -4,6 +4,7 @@ import styles from "./Footer.module.css";
 function Footer() {
   return (
     <div className={styles.mainContainer}>
+      <div className={styles.columnContainer}>
       <div className={styles.column}>
         <div className={styles.span}><span>AlphaRush AI</span> LLC.</div>
         <div >
@@ -25,7 +26,14 @@ function Footer() {
               <img src="Twitter-3.png" alt="" />
               <img src="Discord.png" alt="" />
 
-          </div>
+      </div>
+     </div>
+      <div className={styles.greyLine}>
+
+      </div>
+      <div className={styles.copyRights}>
+      © 2023 AlphaRush. All rights reserved.
+      </div>
     </div>
   );
 }

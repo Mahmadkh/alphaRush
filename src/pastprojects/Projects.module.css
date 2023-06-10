@@ -1,0 +1,207 @@
+.mainContainer{
+    margin-top: 140px;
+    width: 100%;
+    max-width: 1080px;
+
+
+}
+
+.textHead{
+    width: 100%;
+    max-width: 1080px;
+    font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+color: #ED6C45;
+margin-bottom: 50px;
+text-align: left;
+}
+
+.space{
+    margin-bottom: 20px;
+    height: 774px;
+    display: flex;
+    column-gap: 30px;
+
+}
+.posRelativeLayerThree{
+    position: relative;
+    
+}
+.lowestContainer > img{
+    margin-left: -1px;
+
+}
+.ether{
+    position: absolute;
+
+    border-radius: 50%;
+    background: linear-gradient(122.35deg,#ed6c45 35.68%,rgba(237,108,69,.02) 96.15%),linear-gradient(0deg,#221b1b,#221b1b);
+    padding: 1px 1px 0px 0px;
+    top: 98%;
+    left: 38%;
+    
+}
+.layerTwo{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  width: 60px;
+  height: 60px;
+  border: 1px solid transparent;
+    border-radius: 50%;
+    background: #0b0a0a;
+
+    
+}
+
+.cardContentSecond{
+    
+    display: flex ;
+    flex-direction: column;
+    clip-path: polygon(100% 0,100% 92%,82% 100%,0 100%,0 0);
+    width: 340px;
+    height: 501px;
+    border-radius: 20px;
+    border: 0 solid #e5e7eb;
+    background: linear-gradient(122.35deg,#ed6c45 35.68%,rgba(237,108,69,.02) 96.15%),linear-gradient(0deg,#221b1b,#221b1b);
+    padding: 1px;
+    height: 794px;
+    align-items: center;
+    justify-content: center;
+
+
+    
+    
+    
+}
+.front{
+    
+    display: flex ;
+    flex-direction: column;
+    clip-path: polygon(100% 0,100% 92%,82% 100%,0 100%,0 0);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 0 solid #e5e7eb;
+    background: #221B1B;
+    align-items: center;
+    justify-content: center;
+        
+ 
+}
+
+.lowestContainer{
+    display: flex ;
+    flex-direction: column;
+    clip-path: polygon(100% 0,100% 92%,82% 100%,0 100%,0 0);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 0 solid #e5e7eb;
+    align-items: center;
+    
+
+    
+}
+
+/* .color{
+    color: #ed6c45;
+} */
+
+.contentContainer{
+    margin-top: 20px;
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cardHeadingTwo{
+    display: flex;
+    flex-direction: column;
+    width: 254px;
+height: 42px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Nexa-Bold';
+    font-size: 22px;
+    margin-bottom: 25px;
+    color: #FFFFFF;
+
+    
+
+}
+.cardHeadingTwo > span{
+    font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+text-decoration: none;
+margin-top: 15px;
+}
+
+
+
+
+.spySecond{
+    width: 310px;
+height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #383131;    border-radius: 2px;
+    clip-path: polygon(100% 0,100% 70%,95% 100%,0 100%,0 0);
+    font-family: 'NexaRegular';
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+  
+
+.twitter{
+    margin-top: 6px;
+    font-family: 'Nexa-Bold';
+font-size: 18px;
+background: linear-gradient(180deg, #F97851 0%, #EF5222 100%);
+border-radius: 8px;
+width: 152px;
+height: 40px;
+font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.twitter > button{
+    font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+
+}
+
+.stake{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25px;
+  width: 268px;
+  height: 41px;
+font-family: 'Nexa-Bold';
+font-size: 18px;
+color: #FFFFFF;
+
+
+}
+.spySecond > span{
+    text-decoration: none;
+}

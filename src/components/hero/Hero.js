@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from "./Hero.module.css"
-import Cards from '../cards/Cards'
 
 function Hero() {
   return (
@@ -13,9 +12,9 @@ function Hero() {
           Launchpad Documentation
           </div>
           </div>
-          <div className={styles.cards}>
+          {/* <div className={styles.cards}>
               < Cards/>
-          </div>
+          </div> */}
     </div>
   )
 }

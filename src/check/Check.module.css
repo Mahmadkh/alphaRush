@@ -1,7 +1,7 @@
 .mainContainer{
 
-    width: 80%;
-    max-width: 1080px;
+    width: 100%;
+    width: 1080px;
     margin-top: 150px;
     background: linear-gradient(122.35deg,#ed6c45 35.68%,rgba(237,108,69,.02) 96.15%);
     clip-path: polygon(6% 0,100% 0,100% 78%,94% 100%,0 100%,0 22%);
@@ -20,7 +20,8 @@
     justify-content: center;
     color:#FFFFFF;
     background: #221b1b;
-    padding: 78px 143px 79px 143px;
+    
+    /* padding: 78px 143px 79px 143px; */
 border-radius: 20px;
 column-gap: 30px;
 height: 100%;
@@ -28,7 +29,13 @@ background-image: url(/public/checkout.png);
 
 /* justify-content: space-between; */
 }
-
+.contain{
+    display: flex;
+    flex-direction: row;
+    width: 794px;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 

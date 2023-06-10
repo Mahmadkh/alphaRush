@@ -11,8 +11,9 @@ function Cards() {
             <div className={styles.cardHeading}>$RUSHAI Staking Pool</div>
             <div className={styles.apy}>12345689% APY</div>
             <div className={styles.apy}>TVL - 12345678$ </div>
+            <div className={styles.stake}>Stake </div>
+
           </div>
-          <div className={styles.stake}>Stake </div>
         </div>
         <div className={styles.cardContentSecond}>
                   <div className={styles.front}>
@@ -26,9 +27,10 @@ function Cards() {
             <div className={styles.spySecond}>12345689% APY</div>
             <div className={styles.spySecond}>
               TVL - <div className={styles.color}>12345678$</div>{" "}
-            </div>
+                </div>
+                <div className={styles.unStake}>Unstake </div>
           </div>
-          <div className={styles.stake}>Unstake </div>
+          
                       </div>
                       </div>
         </div>
@@ -38,8 +40,10 @@ function Cards() {
             <div className={styles.cardHeading}>$RUSHAI Staking Pool</div>
             <div className={styles.apy}>12345689% APY</div>
             <div className={styles.apy}>TVL - 12345678$ </div>
+            <div className={styles.stake}>Stake </div>
+
           </div>
-          <div className={styles.stake}>Stake </div>
+
         </div>
         </div>
       </div>
